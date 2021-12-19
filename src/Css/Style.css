@@ -1,0 +1,47 @@
+content{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.product{
+    
+}
+
+img{
+     border-radius: 0.5rem; 
+  
+ }
+  img.medium{
+    max-width: 29rem;
+    width: 90%;
+    
+    height: 220px;
+  }
+  img.large{
+    width: 78%;
+    /*height: 380px;*/
+    height: fit-content;
+  }
+  .calcule{
+       font-size: bold;
+      text-align: center; 
+
+      /* flex: 1;
+      padding: 20px;
+      height: 50vh; */
+
+  }
+
+  .row{
+    display: flex;
+  }
+
+  .col-2{
+    padding: 10px;
+
+  }
+  .col-1{
+    flex: 1 1 25rem;
+
+  }
